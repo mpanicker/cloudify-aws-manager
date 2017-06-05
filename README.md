@@ -40,10 +40,14 @@ agent_security_group_name
 8. run cfy bootstrap --install-plugins -p /path/to/manager/blueprint/file -i /path/to/inputs/yaml/file
 
 9. Depending on the cloud environment and the server specifications you provided, this should take between 10 to 20 minutes to complete. After validating the configuration, cfy will create the management VM, related networks and security groups, download the relevant packages and install all of the components. At the end of this process you should see the following message:
+bootstrapping complete
+management server is up at <YOUR MANAGER IP ADDRESS>
 
 10. run cfy status
 
+11. go to the IP above(no need to specify any port)
 
+12. now you can upload any blueprint(see )
 
 
 -------------------
